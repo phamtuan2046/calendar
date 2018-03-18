@@ -1,0 +1,286 @@
+<resources>
+    <string name="ok">OK</string>
+    <string name="cancel">Avbryt</string>
+    <string name="search">Søk</string>
+    <string name="save_as">Lagre som</string>
+    <string name="file_saved">Fil vellykket lagret</string>
+    <string name="invalid_file_format">Ugyldig filformat</string>
+    <string name="out_of_memory_error">Feil: Tomt for minne</string>
+    <string name="an_error_occurred">En feil oppstod: %s</string>
+    <string name="open_with">Åpne med</string>
+    <string name="no_app_found">Ingen gyldig app funnet</string>
+    <string name="set_as">Sett som</string>
+    <string name="value_copied_to_clipboard">Verdi kopiert til utklippstavle</string>
+    <string name="unknown">Ukjent</string>
+
+    <!-- Filters -->
+    <string name="filter">Filter</string>
+    <string name="no_items_found">Ingen elementer funnet.</string>
+    <string name="change_filter">Endre filter</string>
+
+    <!-- Permissions -->
+    <string name="no_storage_permissions">Tillatelse for lagring kreves</string>
+    <string name="no_contacts_permission">Tillatelse for kontakter kreves</string>
+    <string name="no_camera_permissions">Tillatelse for kamera kreves</string>
+    <string name="no_audio_permissions">Tillatelse for lyd kreves</string>
+
+    <!-- Renaming -->
+    <string name="rename_file">Rename file</string>
+    <string name="rename_folder">Rename folder</string>
+    <string name="rename_file_error">Could not rename the file</string>
+    <string name="rename_folder_error">Could not rename the folder</string>
+    <string name="rename_folder_empty">Folder name must not be empty</string>
+    <string name="rename_folder_exists">A folder with that name already exists</string>
+    <string name="rename_folder_root">Cannot rename the root folder of a storage</string>
+    <string name="rename_folder_ok">Folder renamed successfully</string>
+    <string name="renaming_folder">Renaming folder</string>
+    <string name="filename_cannot_be_empty">Filename cannot be empty</string>
+    <string name="filename_invalid_characters">Filename contains invalid characters</string>
+    <string name="extension_cannot_be_empty">Extension cannot be empty</string>
+
+    <!-- Copy / Move -->
+    <string name="copy">Kopier</string>
+    <string name="move">Flytt</string>
+    <string name="copy_move">Kopier / Flytt</string>
+    <string name="copy_to">Kopier til</string>
+    <string name="move_to">Flytt til</string>
+    <string name="source">Kilde</string>
+    <string name="destination">Mål</string>
+    <string name="select_destination">Velg mål</string>
+    <string name="click_select_destination">Trykk her for å velge mål</string>
+    <string name="invalid_destination">Kunne ikke skrive til det valgte målet</string>
+    <string name="please_select_destination">Velg et mål</string>
+    <string name="source_and_destination_same">Kilde og mål kan ikke være det samme</string>
+    <string name="copy_failed">Kunne ikke kopiere filene</string>
+    <string name="copying">Kopierer&#8230;</string>
+    <string name="copying_success">Filer ble kopiert vellykket</string>
+    <string name="copy_move_failed">En feil oppstod</string>
+    <string name="moving">Flytter&#8230;</string>
+    <string name="moving_success">Filer ble flyttet vellykket</string>
+    <string name="moving_success_partial">Noen filer kunne ikke flyttes</string>
+    <string name="copying_success_partial">Noen filer kunne ikke kopieres</string>
+    <string name="no_files_selected">Ingen filer valgt</string>
+    <string name="saving">Lagrer&#8230;</string>
+    <string name="could_not_create_folder">Kunne ikke opprette mappen %s</string>
+    <string name="could_not_create_file">Kunne ikke opprette filen %s</string>
+
+    <!-- Create new -->
+    <string name="create_new">Opprett ny</string>
+    <string name="folder">Mappe</string>
+    <string name="file">Fil</string>
+    <string name="create_new_folder">Opprett ny mappe</string>
+    <string name="name_taken">En fil eller mappe med det navnet finnes allerede</string>
+    <string name="invalid_name">Navnet inneholder ugyldige tegn</string>
+    <string name="empty_name">Oppfør et navn</string>
+    <string name="unknown_error_occurred">En ukjent feil oppstod</string>
+
+    <!-- Copy conflicts -->
+    <string name="file_already_exists">Filen %1$s finnes allerede</string>
+    <string name="file_already_exists_overwrite">Filen %1$s finnes allerede. Overskrive?</string>
+    <string name="select_an_action">Velg en handling</string>
+    <string name="overwrite">Overskriv</string>
+    <string name="skip">Hopp over</string>
+    <string name="append">Tilføy \'_1\'</string>
+    <string name="apply_to_all">Bruk på alle konflikter</string>
+
+    <!-- File picker -->
+    <string name="select_folder">Velg en mappe</string>
+    <string name="select_file">Velg en fil</string>
+    <string name="confirm_storage_access_title">Bekreft ekstern lagringstilgang</string>
+    <string name="confirm_storage_access_text">Velg rotmappen til SD-kortet på den neste skjermen for å gi skrivetilgang</string>
+    <string name="confirm_storage_access_text_sd">Hvis du ikke ser SD-kortet, prøv dette</string>
+    <string name="confirm_selection">Bekreft valg</string>
+
+    <plurals name="items">
+        <item quantity="one">%1$d element</item>
+        <item quantity="other">%1$d elementer</item>
+    </plurals>
+
+    <!-- Storages -->
+    <string name="select_storage">Velg lagring</string>
+    <string name="internal">Intern</string>
+    <string name="sd_card">SD-kort</string>
+    <string name="root">Rot</string>
+    <string name="wrong_root_selected">Feil mappe er valgt, velg rotmappen til SD-kortet</string>
+
+    <!-- File properties -->
+    <string name="properties">Egenskaper</string>
+    <string name="path">Bane</string>
+    <string name="items_selected">Valgte elementer</string>
+    <string name="direct_children_count">Direct children count</string>
+    <string name="files_count">Totale antall filer</string>
+    <string name="resolution">Oppløsning</string>
+    <string name="duration">Varighet</string>
+    <string name="artist">Artist</string>
+    <string name="album">Album</string>
+    <string name="focal_length">Brennvidde</string>
+    <string name="exposure_time">Eksponeringstid</string>
+    <string name="iso_speed">ISO-verdi</string>
+    <string name="f_number">Blendertall</string>
+    <string name="camera">Kamera</string>
+    <string name="exif">EXIF</string>
+
+    <!-- Color customization -->
+    <string name="background_color">Bakgrunnsfarge</string>
+    <string name="text_color">Tekstfarge</string>
+    <string name="primary_color">Primærfarge</string>
+    <string name="restore_defaults">Gjenopprett standard</string>
+    <string name="theme">Tema</string>
+    <string name="changing_color_description">Endring av farge vil gjøre at det skiftes til Tilpasset tema</string>
+    <string name="save">Lagre</string>
+    <string name="discard">Forkast</string>
+    <string name="undo_changes">Angre endringer</string>
+    <string name="undo_changes_confirmation">Er du sikker på at du vil angre dine endringer?</string>
+    <string name="save_before_closing">Du har endringer som ikke er lagret. Lagre før du avslutter?</string>
+    <string name="apply_to_all_apps">Bruk fargene i alle Simple Apps</string>
+    <string name="share_colors_success">Fargene er vellykket oppdatert. Et nytt tema kalt \'Delt\' er lagt til, bruk det for å oppdatere alle appenes farger i fremtiden.</string>
+    <string name="purchase_thank_you">
+        <![CDATA[
+            Please purchase <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> to unlock this function and support the development. Thanks!
+        ]]>
+    </string>
+
+    <!-- Themes -->
+    <string name="light_theme">Lyst</string>
+    <string name="dark_theme">Mørkt</string>
+    <string name="solarized">Solarisert</string>
+    <string name="dark_red">Mørkerødt</string>
+    <string name="black_white">Svart &amp; hvitt</string>
+    <string name="custom">Tilpasset</string>
+    <string name="shared">Delt</string>
+
+    <!-- What's new -->
+    <string name="whats_new">Hva er nytt</string>
+    <string name="whats_new_disclaimer">* bare de større oppdateringene er oppført her, det er alltid noen mindre forbedringer også</string>
+
+    <!-- Actionbar items -->
+    <string name="delete">Slett</string>
+    <string name="rename">Endre navn</string>
+    <string name="share">Del</string>
+    <string name="share_via">Del via</string>
+    <string name="select_all">Velg alle</string>
+    <string name="hide">Skjul</string>
+    <string name="unhide">Ikke skjul</string>
+    <string name="hide_folder">Skjul mappe</string>
+    <string name="unhide_folder">Ikke skjul mappe</string>
+    <string name="temporarily_show_hidden">Vis skjulte midlertidig</string>
+    <string name="stop_showing_hidden">Stopp å vise skjulte media</string>
+    <string name="maximum_share_reached">Du kan ikke dele så mye innhold på en gang</string>
+
+    <!-- Sorting -->
+    <string name="sort_by">Sorter etter</string>
+    <string name="name">Navn</string>
+    <string name="size">Størrelse</string>
+    <string name="last_modified">Sist endret</string>
+    <string name="date_taken">Dato tatt</string>
+    <string name="title">Tittel</string>
+    <string name="filename">Filnavn</string>
+    <string name="extension">Filendelse</string>
+    <string name="ascending">Stigende</string>
+    <string name="descending">Fallende</string>
+    <string name="use_for_this_folder">Bruk kun for denne mappen</string>
+
+    <!-- Confirmation dialog -->
+    <string name="proceed_with_deletion">Er du sikker på at du vil fortsette med slettingen?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nei</string>
+
+    <!-- Password protection -->
+    <string name="pin">PIN-kode</string>
+    <string name="enter_pin">Oppfør PIN-kode</string>
+    <string name="please_enter_pin">Oppfør en PIN-kode</string>
+    <string name="wrong_pin">Feil PIN-kode</string>
+    <string name="repeat_pin">Gjenta PIN-kode</string>
+    <string name="pattern">Mønster</string>
+    <string name="insert_pattern">Tegn mønster</string>
+    <string name="wrong_pattern">Feil mønster</string>
+    <string name="repeat_pattern">Gjenta mønster</string>
+    <string name="fingerprint">Fingeravtrykk</string>
+    <string name="add_fingerprint">Legg til fingeravtrykk</string>
+    <string name="place_finger">Plasser fingeren på fingeravtrykksensoren</string>
+    <string name="authentication_failed">Autentisering feilet</string>
+    <string name="authentication_blocked">Autentisering blokkert, prøv igjen</string>
+    <string name="no_fingerprints_registered">Du har ingen fingeravtrykk registrert, legg til i enhetens innstillinger</string>
+    <string name="go_to_settings">Gå til Innstillinger</string>
+    <string name="protection_setup_successfully">Passord er stilt inn. Installer appen på nytt hvis du glemmer det.</string>
+    <string name="fingerprint_setup_successfully">Beskyttelse er stilt inn. Installer appen på nytt i tilfelle problemer med å tilbakestille.</string>
+
+    <!-- Times -->
+    <plurals name="seconds">
+        <item quantity="one">%1$d sekund</item>
+        <item quantity="other">%1$d sekunder</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="one">%1$d minutt</item>
+        <item quantity="other">%1$d minutter</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%1$d time</item>
+        <item quantity="other">%1$d timer</item>
+    </plurals>
+
+    <!-- Settings -->
+    <string name="settings">Innstillinger</string>
+    <string name="customize_colors">Tilpass farger</string>
+    <string name="use_english_language">Bruk engelsk språk</string>
+    <string name="show_hidden_items">Vis skjulte elementer</string>
+    <string name="font_size">Skriftstørrelse</string>
+    <string name="small">Liten</string>
+    <string name="medium">Middels</string>
+    <string name="large">Stor</string>
+    <string name="extra_large">Ekstra stor</string>
+    <string name="password_protect_hidden_items">Passordbeskytt synlighet for skjulte elementer</string>
+    <string name="password_protect_whole_app">Passordbeskytt hele appen</string>
+    <string name="keep_last_modified">Behold gammel Sist endret-verdi ved kopier/flytt/endre navn for filer</string>
+    <string name="show_info_bubble">Vis en info-boble ved å dra i rullefeltet</string>
+
+    <!-- About -->
+    <string name="about">Om</string>
+    <string name="website_label">For kildekoden besøk</string>
+    <string name="email_label">Send tilbakemelding eller forslag til</string>
+    <string name="more_apps_underlined"><u>Flere apper</u></string>
+    <string name="third_party_licences_underlined"><u>Tredjepartslisenser</u></string>
+    <string name="invite_friends_underlined"><u>Inviter venner</u></string>
+    <string name="share_text">Hey, come check out %1$s at %2$s</string>
+    <string name="invite_via">Inviter via</string>
+    <string name="rate_us_underlined"><u>Bedøm oss</u></string>
+    <string name="donate">Gi et bidrag</string>
+    <string name="donate_underlined"><u>Gi et bidrag</u></string>
+    <string name="follow_us">Følg oss</string>
+    <string name="copyright">v %1$s\nCopyright © Simple Mobile Tools %2$d</string>
+    <string name="additional_info">Tilleggsinformasjon</string>
+    <string name="app_version">App-versjon: %1$s</string>
+    <string name="device_os">Operativsystem: %1$s</string>
+    <string name="donate_please">
+        <![CDATA[
+            Hello,<br><br>
+            hope you are enjoying the app. It contains no ads, so please support its development by purchasing the <a href="https://play.google.com/store/apps/details?id=com.simplemobiletools.thankyou">Simple Thank You</a> app, it will also prevent this dialog from showing up again.<br><br>
+            You can find more donating options <a href="http://simplemobiletools.com/donate">here</a>.<br><br>
+            Thank you!
+        ]]>
+    </string>
+    <string name="purchase">Kjøp</string>
+
+    <!-- License -->
+    <string name="notice">This app uses the following third party libraries to make my life easier. Thank you.</string>
+    <string name="third_party_licences">Tredjepartslisenser</string>
+    <string name="kotlin_title">Kotlin (programming language)</string>
+    <string name="subsampling_title">Subsampling Scale Image View (zoomable imageviews)</string>
+    <string name="glide_title">Glide (image loading and caching)</string>
+    <string name="picasso_title">Picasso (image loading and caching)</string>
+    <string name="cropper_title">Android Image Cropper (image crop and rotate)</string>
+    <string name="multiselect_title">RecyclerView MultiSelect (selecting multiple list items)</string>
+    <string name="rtl_viewpager_title">RtlViewPager (right to left swiping)</string>
+    <string name="joda_title">Joda-Time (Java date replacement)</string>
+    <string name="stetho_title">Stetho (debugging databases)</string>
+    <string name="otto_title">Otto (event bus)</string>
+    <string name="photoview_title">PhotoView (zoomable GIFs)</string>
+    <string name="pattern_title">PatternLockView (pattern protection)</string>
+    <string name="reprint_title">Reprint (fingerprint protection)</string>
+    <string name="gif_drawable_title">Gif Drawable (loading GIFs)</string>
+    <string name="autofittextview_title">AutoFitTextView (resizing text)</string>
+    <string name="robolectric_title">Robolectric (testing framework)</string>
+    <string name="espresso_title">Espresso (testing helper)</string>
+    <string name="gson_title">Gson (JSON parser)</string>
+    <string name="leak_canary_title">Leak Canary (memory leak detector)</string>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/grp1"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_add_holidays"
+            android:icon="@drawable/ic_holidays"
+            android:title="@string/add_holidays" />
+    </group>
+
+    <group
+        android:id="@+id/grp2"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_add_birthdays"
+            android:icon="@drawable/ic_contact"
+            android:title="@string/add_birthdays" />
+    </group>
+
+    <group
+        android:id="@+id/grp3"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_add_anniversaries"
+            android:icon="@drawable/ic_anniversary"
+            android:title="@string/add_anniversaries" />
+    </group>
+
+    <group
+        android:id="@+id/grp4"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/nav_import"
+            android:icon="@drawable/ic_import_file"
+            android:title="@string/import_events_from_ics" />
+    </group>
+
+    <group
+        android:id="@+id/grp5"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_export"
+            android:icon="@drawable/ic_exprot_file"
+            android:title="@string/export_events_to_ics" />
+    </group>
+
+    <group
+        android:id="@+id/grp6"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_setting"
+            android:title="@string/settings" />
+    </group>
+
+    <group
+        android:id="@+id/grp7"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_rate_app"
+            android:icon="@drawable/ic_rate_app"
+            android:title="@string/rate_app" />
+    </group>
+
+    <group
+        android:id="@+id/grp27"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_more_app"
+            android:icon="@drawable/ic_more_app"
+            android:title="@string/more_app" />
+    </group>
+    <group
+        android:id="@+id/grp8"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_ads"
+            android:icon="@drawable/ic_ads"
+            android:title="@string/advertisement" />
+    </group>
+
+    <group
+        android:id="@+id/grp9"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/about" />
+    </group>
+
+    <group
+        android:id="@+id/grp10"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_exit"
+            android:title="@string/Exit" />
+    </group>
+
+    <group
+        android:id="@+id/grp11"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav"
+            android:icon="@null"
+            android:title="@null" />
+    </group>
+
+</menu>

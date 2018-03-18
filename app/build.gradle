@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    signingConfigs {
+        
+    }
+    compileSdkVersion 27
+    buildToolsVersion "27.0.2"
+    defaultConfig {
+        applicationId "com.phamtuan.calendar"
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 24
+        versionName "1.0.0"
+        multiDexEnabled true
+//        setProperty("archivesBaseName", "calendar")
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+          
+        }
+    }
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+}
+
+ext {
+    leakCanaryVersion = '1.5.4'
+}
+
+dependencies {
+    implementation 'joda-time:joda-time:2.9.9'
+    implementation 'com.facebook.stetho:stetho:1.5.0'
+    implementation 'com.android.support:multidex:1.0.2'
+    implementation 'com.google.code.gson:gson:2.8.2'
+    implementation project(':commons')
+    //    debugImplementation "com.squareup.leakcanary:leakcanary-android:$leakCanaryVersion"
+    //    releaseImplementation "com.squareup.leakcanary:leakcanary-android-no-op:$leakCanaryVersion"
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.google.android.gms:play-services-ads:11.6.0'
+    compile 'com.intuit.sdp:sdp-android:1.0.4'
+    compile 'com.facebook.android:audience-network-sdk:4.+'
+    compile 'com.github.bumptech.glide:glide:4.4.0'
+}
