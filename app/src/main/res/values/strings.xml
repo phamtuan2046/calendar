@@ -303,11 +303,6 @@
 
     <string name="action_settings">Settings</string>
 
-    <string name="app_admod_id">ca-app-pub-5656913899866469~4174307712</string>
-    <string name="Native_admod_id">ca-app-pub-5656913899866469/6448993555</string>
-    <string name="Rewarded_admod_id">ca-app-pub-5656913899866469/4015236052</string>
-    <string name="banner_admod_id">ca-app-pub-5656913899866469/8059434600</string>
-    <string name="Interstitial_admod_id">ca-app-pub-5656913899866469/7873346743</string>
 
     // menu
     <string name="rate_app">Rate App</string>
